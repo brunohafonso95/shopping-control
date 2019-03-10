@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a id="navTitle" class="navbar-brand" href="index.html" ></a>
+              </div>
+            </div>
+          </nav>
+          <div class="container-fluid">
+              <div class="form-inline">
+                  <div class="form-group">
+                      <input type="text" class="form-control" name="desc" placeholder="description">
+                  </div>
+                  <div class="form-group">
+                      <input type="number" class="form-control" name="amount" step="none" placeholder="amount">
+                  </div>
+                  <div class="form-group">
+                      <input type="number" class="form-control" name="value" step=".01" placeholder="value (Ex: 6,99)">
+                  </div>
+                  <span id="btnUpdate" class="hide">
+                        <input id="itemId" type="hidden">
+                        <button id="save" class="btn btn-success">Save</button>
+                        <button id="cancel" class="btn btn-danger">Cancel</button>    
+                  </span>
+                  <span id="btnAdd">
+                    <button id="add" class="btn btn-default">Add</button>
+                    <button id="clear" class="btn btn-default">Clear</button>
+                    <button id="deleteList" class="btn btn-default">Delete List</button>
+                  </span>
+              </div>
+              <br/>
+              <div class="alert alert-danger hide" id="alert"></div>
+             <table id="listTable" class="table"></table> 
+          </div>
+          <nav class="navbar navbar-default">
+            <div class="container">
+                <h4 class="text-left text-success">Total: <span id="total"></span></h4>
+            </div>
+          </nav>
+          <script src="js/config.js"></script>
+          <script src="js/main.js"></script>
+    </body>
+</html>
