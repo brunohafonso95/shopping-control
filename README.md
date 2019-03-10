@@ -4,4 +4,4 @@ Project developed using HTML, CSS / BOOTSTRAP and JAVASCRIPT, with the functiona
 
 follow the link below to see the application:
 
-[Shopping Control](https://brunohafonso95.github.io/shopping-control/){:target="_blank"}
+<a href="https://brunohafonso95.github.io/shopping-control/" taget="_blank">Shopping Control</a>
